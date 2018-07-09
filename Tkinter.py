@@ -7,6 +7,7 @@ win.pack()
 
 def Button_Function():
     print("fuckgot")
+    win.after(200, Button_Function)
 
 
 Butt = Button(root, text="Make a fuckgot", command=Button_Function)
