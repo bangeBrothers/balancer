@@ -1,7 +1,11 @@
-import tkinter as tk
-win = tk.Canvas("win", 500, 500)
+from tkinter import *
+root = Tk()
+win = Canvas(root, width=500, height=500)
+root.resizable(False, False)
+win.pack()
 win.mainloop()
 
-#this is a note
 
-print("Fuck")
+def Button_Function():
+    print("fuckgot")
+
