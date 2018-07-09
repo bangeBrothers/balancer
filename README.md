@@ -1,7 +1,7 @@
 # Balancer
 ### An open source platform for balancing Meridian assets
 
-##Objectives
+## Objectives
 1. To create a platform for developers to view assets and their attributes.
 2. To create a platform for developers to add assets and set attributes. 
 3. To create a set of standard attributes for assets to avoid unbalanced situations in engine.
@@ -10,7 +10,7 @@
 
 ## Progress
 
-###July 9th -  project has been started at version 0.01
+### July 9th -  project has been started at version 0.01
 
 
 ## Developers
