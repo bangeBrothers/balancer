@@ -3,7 +3,7 @@ root = Tk()
 
 # Config for window properties
 windowName = "Meridian Balancer"
-
+windowIcon = "icon.ico"
 # Config for main menu properties
 menuWidth = 400
 menuHeight = 400
@@ -14,11 +14,11 @@ programVersion = "0.1"
 
 # Config for main menu context properties
 
-# Define main menu canvas height and width
+# Define main menu canvas height and width, as well as icon and title
 win = Canvas(root, width=menuWidth, height=menuHeight, bg='white')
 root.resizable(False, False)
 root.title(windowName)
-root.iconbitmap('icon.ico')
+root.iconbitmap(windowIcon)
 win.pack()
 
 # Build main menu header
