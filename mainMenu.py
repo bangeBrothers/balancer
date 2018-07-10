@@ -12,7 +12,6 @@ programVersion = "0.1"
 
 # Config for main menu context properties
 
-
 # Define main menu canvas height and width
 win = Canvas(root, width=menuWidth, height=menuHeight, bg='white')
 root.resizable(False, False)
