@@ -1,6 +1,8 @@
 from tkinter import *
 root = Tk()
 
+# Config for window properties
+windowName = "Meridian Balancer"
 
 # Config for main menu properties
 menuWidth = 400
@@ -15,6 +17,8 @@ programVersion = "0.1"
 # Define main menu canvas height and width
 win = Canvas(root, width=menuWidth, height=menuHeight, bg='white')
 root.resizable(False, False)
+root.title(windowName)
+root.iconbitmap('icon.ico')
 win.pack()
 
 # Build main menu header
