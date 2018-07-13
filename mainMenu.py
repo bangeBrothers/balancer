@@ -85,5 +85,5 @@ view_weapons_button.place(x=275, y=195, anchor=CENTER)
 add_weapons_button = Button(root, width=25, height=1, text='ADD', command=Add_Weapons)
 add_weapons_button.place(x=275, y=235, anchor=CENTER)
 
-# I have no idea what this does @galv
+# Basically runs the code
 win.mainloop()
