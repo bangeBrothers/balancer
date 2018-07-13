@@ -22,7 +22,7 @@ root.iconbitmap(windowIcon)
 win.pack()
 
 # Build main menu header
-program_name = Label(root, text='EXPANSE BALANCER', font=('Courier', 20), bg='white')
+program_name = Label(root, text='EXPANSE BALANCER', font=('Courier bold', 20), bg='white')
 program_name.place(x=200, y=10, anchor=N)
 version_text = Label(root, text=('Version', programVersion), font=('Courier', 10), bg='white')
 version_text.place(x=200, y=40, anchor=N)
@@ -60,7 +60,14 @@ def Revive_Main():
 ##ship_context_label = Label(root, text=('SHIPS', programVersion), font=('Courier', 18), bg='white')
 ##ship_context_label(x=100, y=100, anchor=N)
 
-# Build main menu context buttons
+# Build main menu context options
+
+## Build context labels
+ships_text = Label(root, text=('SHIPS'), font=('Courier bold', 14), bg='white')
+ships_text.place(x=115, y=120, anchor=N)
+
+weapons_text = Label(root, text=('WEAPONS'), font=('Courier bold', 14), bg='white')
+weapons_text.place(x=115, y=200, anchor=N)
 
 ## Build view ship button
 view_ship_button = Button(root, width=25, height=1, text='VIEW', command=View_Ships)
