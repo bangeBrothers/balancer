@@ -10,6 +10,7 @@
 
 ## Progress
 
+### September 26th - project has been scrapped.
 ### July 9th -  project has been started at version 0.01
 
 
